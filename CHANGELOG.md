@@ -2,7 +2,24 @@
 
 ## [Unreleased](https://github.com/jrnl-org/jrnl/)
 
-[Full Changelog](https://github.com/jrnl-org/jrnl/compare/v2.4.2...HEAD)
+[Full Changelog](https://github.com/jrnl-org/jrnl/compare/v2.4.3...HEAD)
+
+**Implemented enhancements:**
+
+- Add tags to json and xml exporters [\#975](https://github.com/jrnl-org/jrnl/pull/975) ([eshrh](https://github.com/eshrh))
+- Add extended metadata support for DayOne Classic [\#928](https://github.com/jrnl-org/jrnl/pull/928) ([MinchinWeb](https://github.com/MinchinWeb))
+
+**Fixed bugs:**
+
+- Create journal with absolute path when no path is specified [\#972](https://github.com/jrnl-org/jrnl/pull/972) ([eshrh](https://github.com/eshrh))
+
+**Updated documentation:**
+
+- Extensive modifications to overview.md [\#957](https://github.com/jrnl-org/jrnl/pull/957) ([guydebros](https://github.com/guydebros))
+
+## [v2.4.3](https://pypi.org/project/jrnl/v2.4.3/) (2020-06-13)
+
+[Full Changelog](https://github.com/jrnl-org/jrnl/compare/v2.4.3-beta...v2.4.3)
 
 **Implemented enhancements:**
 
@@ -10,6 +27,7 @@
 
 **Fixed bugs:**
 
+- Fix set\_keychain errors [\#964](https://github.com/jrnl-org/jrnl/pull/964) ([eshrh](https://github.com/eshrh))
 - Fix title splitting logic to account for both newlines and periods [\#958](https://github.com/jrnl-org/jrnl/pull/958) ([eshrh](https://github.com/eshrh))
 - Fix editor config when an argument with a space is used [\#953](https://github.com/jrnl-org/jrnl/pull/953) ([wren](https://github.com/wren))
 - Ask for password before adding entry instead of after [\#951](https://github.com/jrnl-org/jrnl/pull/951) ([ollybritton](https://github.com/ollybritton))
@@ -19,6 +37,7 @@
 
 - Fix for hanging Windows tests on Travis [\#969](https://github.com/jrnl-org/jrnl/pull/969) ([wren](https://github.com/wren))
 - Ensure test data is always checked out with LF line endings [\#965](https://github.com/jrnl-org/jrnl/pull/965) ([micahellison](https://github.com/micahellison))
+- Clean up templates and issues [\#954](https://github.com/jrnl-org/jrnl/pull/954) ([wren](https://github.com/wren))
 - Update lockbot comment to encourage linking to issue [\#941](https://github.com/jrnl-org/jrnl/pull/941) ([MinchinWeb](https://github.com/MinchinWeb))
 
 **Updated documentation:**
